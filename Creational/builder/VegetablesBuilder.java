@@ -3,22 +3,17 @@ package builder;
 import java.util.ArrayList;
 import java.util.List;
 
-import builder.entities.BreadType;
-import builder.entities.CheeseType;
-import builder.entities.MeatType;
-
-public class BurgerBuilder extends SandwichBuilder{
+public class VegetablesBuilder extends SandwichBuilder{
 
 	@Override
 	public void prepareBread() {
-		sandwich.setBreadType(BreadType.BreadRoll);
+		sandwich.setBreadType(BreadType.Black);
 	}
 
 	@Override
 	public void applyMeatAndCheese() {
-		sandwich.setMeatType(MeatType.Ox);
+		sandwich.setMeatType(MeatType.Vegtables);
 		sandwich.setCheeseType(CheeseType.Saga);
-
 	}
 
 	@Override
@@ -26,13 +21,12 @@ public class BurgerBuilder extends SandwichBuilder{
 		List<String> vegetables = new ArrayList<String>();
 		vegetables.add("Tomato");
 		vegetables.add("Onion");
-		vegetables.add("Cucumber");
 		sandwich.setVegetables(vegetables);
 	}
 
 	@Override
-	public void addSpices() {
-		sandwich.setHasMustard(true);
+	public void addSpices() {	
+		sandwich.setHasMustard(false);
 	}
 
 }

@@ -1,4 +1,4 @@
-package builder.entities;
+package builder;
 
 public enum MeatType {
 	Turky,Chiken ,Salmon,Ox,Vegtables;

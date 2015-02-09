@@ -1,4 +1,4 @@
-package builder.entities;
+package builder;
 
 import java.util.List;
 

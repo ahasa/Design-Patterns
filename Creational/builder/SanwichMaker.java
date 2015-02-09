@@ -1,6 +1,5 @@
 package builder;
 
-import builder.entities.Sandwich;
 
 public class SanwichMaker {
 	private SandwichBuilder builder;
