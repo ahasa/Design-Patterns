@@ -11,9 +11,9 @@ public class StudentCache {
 	}
 
 	public void loadCache() {
-		Student student1 = new Student("Ahmed", "Salem", "19840903");
-		Student student2 = new Student("Robin", "Glimsjö", "19880801");
-		Student student3 = new Student("Peter", "Magnusson", "19840119");
+		Student student1 = new Student("Ahmed", "Salem", "1");
+		Student student2 = new Student("Robin", "Glimsjö", "2");
+		Student student3 = new Student("Peter", "Magnusson", "3");
 		cache.put(student1.getId(), student1);
 		cache.put(student2.getId(), student2);
 		cache.put(student3.getId(), student3);
