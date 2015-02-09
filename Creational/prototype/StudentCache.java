@@ -3,7 +3,7 @@ package prototype;
 import java.util.HashMap;
 
 public class StudentCache {
-	public HashMap<String, Student> cache = new HashMap<String, Student>();
+	private HashMap<String, Student> cache = new HashMap<String, Student>();
 
 	public Student getPerson(String personId) {
 		Student student = cache.get(personId);
