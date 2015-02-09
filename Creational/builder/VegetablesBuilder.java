@@ -3,7 +3,7 @@ package builder;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VegetablesBuilder extends SandwichBuilder{
+public class VegetablesBuilder extends SandwichBuilder {
 
 	@Override
 	public void prepareBread() {
@@ -25,7 +25,7 @@ public class VegetablesBuilder extends SandwichBuilder{
 	}
 
 	@Override
-	public void addSpices() {	
+	public void addSpices() {
 		sandwich.setHasMustard(false);
 	}
 
