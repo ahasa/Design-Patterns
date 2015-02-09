@@ -8,4 +8,8 @@ public interface ServiceFactory {
 	public Card getCard(CardType cardType);
 
 	public Account getAccount(AccountType accountType);
+
+	public enum FactoryType {
+		Card, Account
+	}
 }
